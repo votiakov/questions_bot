@@ -312,3 +312,19 @@ D, [2016-04-29T23:32:15.086129 #12928] DEBUG -- :   [1m[35mUser Load (0.6ms)[
 D, [2016-04-29T23:32:15.331896 #12928] DEBUG -- :   [1m[36m (0.2ms)[0m  [1mBEGIN[0m
 D, [2016-04-29T23:32:15.332758 #12928] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_asked" = $1 WHERE "users"."id" = $2  [["last_asked", 5], ["id", 1]]
 D, [2016-04-29T23:32:15.554252 #12928] DEBUG -- :   [1m[36m (221.3ms)[0m  [1mCOMMIT[0m
+D, [2016-04-30T00:23:34.166313 #15201] DEBUG -- :   [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", 194808169]]
+D, [2016-04-30T00:23:34.542198 #15201] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2016-04-30T00:23:34.555709 #15201] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_asked" = $1 WHERE "users"."id" = $2[0m  [["last_asked", 6], ["id", 1]]
+D, [2016-04-30T00:23:34.576663 #15201] DEBUG -- :   [1m[35m (20.4ms)[0m  COMMIT
+D, [2016-04-30T00:23:34.579515 #15201] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", 194808169]]
+D, [2016-04-30T00:23:35.020825 #15201] DEBUG -- :   [1m[35m (0.2ms)[0m  BEGIN
+D, [2016-04-30T00:23:35.022148 #15201] DEBUG -- :   [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_asked" = $1 WHERE "users"."id" = $2[0m  [["last_asked", 7], ["id", 1]]
+D, [2016-04-30T00:23:35.042258 #15201] DEBUG -- :   [1m[35m (19.8ms)[0m  COMMIT
+D, [2016-04-30T00:23:35.045724 #15201] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", 194808169]]
+D, [2016-04-30T00:23:35.522777 #15201] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2016-04-30T00:23:35.524478 #15201] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "last_asked" = $1 WHERE "users"."id" = $2[0m  [["last_asked", 8], ["id", 1]]
+D, [2016-04-30T00:23:35.586148 #15201] DEBUG -- :   [1m[35m (61.3ms)[0m  COMMIT
+D, [2016-04-30T00:23:35.588523 #15201] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", 194808169]]
+D, [2016-04-30T00:23:36.053552 #15201] DEBUG -- :   [1m[35m (0.4ms)[0m  BEGIN
+D, [2016-04-30T00:23:36.055109 #15201] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_asked" = $1 WHERE "users"."id" = $2[0m  [["last_asked", 9], ["id", 1]]
+D, [2016-04-30T00:23:36.085333 #15201] DEBUG -- :   [1m[35m (29.9ms)[0m  COMMIT
