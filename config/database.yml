@@ -1,0 +1,7 @@
+adapter: postgresql
+encoding: unicode
+database: echobot
+pool: 5
+username: echobot
+password: password1
+timeout: 5000
